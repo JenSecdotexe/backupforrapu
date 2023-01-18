@@ -35,7 +35,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 
 
 
-zipName = input("[+] Enter Zip File Path : ") or './usr/share/wordlists/rockyou.txt'
+zipName = input("[+] Enter Zip File Path : ") 
 pwdsFile = input("[+] Enter Wordlist Path : ")
 
 
