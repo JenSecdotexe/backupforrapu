@@ -19,7 +19,7 @@ W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
 Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
 $R@i.~~ !     :   ~$$$$$B$$en:``
 ?MXT@Wx.~    :     ~"##*$$$$M~
---~~Rapunzel's no Recoil Tool~~ ->	https://github.com/Rapunzel-ware
+--~~Rapunzel's no Recoil Tool~~ ->	
 --]]
 
 
@@ -30,7 +30,7 @@ function OnEvent(event, arg)
          OutputLogMessage("event = %s, arg = %s\n", event, arg)
  
 if (event == "PROFILE_ACTIVATED") then
-    EnablePrimaryMouseButtonEvents(true)
+    EnablePrimaryMouseButtonEvents(true) //test
 end  
 
 --						<=================~~Press Numlock to turn on~~======================>
